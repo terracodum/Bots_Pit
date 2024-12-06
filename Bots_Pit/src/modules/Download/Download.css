@@ -1,0 +1,17 @@
+.down_btn {
+    min-height: 4rem;
+    font-size: 2rem;
+    color: var(--background);
+    background-color: var(--primary);
+    padding: 2rem 3rem;
+    font-family: "Tektur";
+    border-radius: 15px;
+    transition: background-color 0.3s ease; /* Плавный переход цвета фона */
+    border: none;
+    margin: 2rem;
+}
+
+.highlight {
+    box-shadow: 0 0 40px var(--accent), 0 0 20px var(--accent); /* Эффект лампочки с радиусом в 2 раза больше */
+    transform: translateY(-5%);
+}

@@ -1,0 +1,8 @@
+.des {
+    color: var(--primary);
+    font-family: var(--tect);
+}
+.set {
+    display: flex;
+    align-items: end;
+}

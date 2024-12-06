@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tektur:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --text: #6ebd43;
+    --background: #131212;
+    --primary: #ebca52;
+    --secondary: #56cd89;
+    --accent: #c3af66;
+    --press: "Press Start 2P";
+    --tect: "Tektur";
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    transform: scale(0.6);
+}
+
+.app, a{
+    background-color: var(--background) ;
+    color: var(--text)
+}
+.app {
+    min-height: 1000vh;
+}
+.main {
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

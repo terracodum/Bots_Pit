@@ -1,0 +1,9 @@
+.cont {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+.link {
+    font-family: "Tektur";
+    text-decoration: none;
+}
