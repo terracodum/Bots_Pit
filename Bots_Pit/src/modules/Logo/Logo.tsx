@@ -1,6 +1,6 @@
 import logo from "../../images/Logo.png";
 import flow from "../../images/Logo_flow.png";
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Logo.css';
 
 function Logo() {

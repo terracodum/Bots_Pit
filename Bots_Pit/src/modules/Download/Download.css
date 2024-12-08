@@ -15,3 +15,8 @@
     box-shadow: 0 0 40px var(--accent), 0 0 20px var(--accent); /* Эффект лампочки с радиусом в 2 раза больше */
     transform: translateY(-5%);
 }
+.btncont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

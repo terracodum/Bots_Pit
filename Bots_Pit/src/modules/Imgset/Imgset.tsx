@@ -6,7 +6,7 @@ function Imgset() {
     return (
         <div className="set">
             <div className="img"
-                style={{ width: '42rem', height: '30rem', overflow: 'hidden' }}>
+                style={{ width: '50dvw', overflow: 'hidden' }}>
                 <img
                     className="back"
                     src={back} 
@@ -17,7 +17,7 @@ function Imgset() {
             </div>
 
             <div className="img"
-                style={{ width: '20rem', height: '30em', overflow: 'hidden' }}>
+                style={{ width: '20dvw', overflow: 'hidden' }}>
                 <img
                     className="gg" 
                     src={gg} 

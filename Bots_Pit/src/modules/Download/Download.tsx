@@ -16,7 +16,7 @@ function triggerDownload(fileName: string) {
 function Download() {
     const [isHovered, setIsHovered] = useState(false);
     return(
-        <div>
+        <div className="btncont">
             <button 
             onClick={() => {triggerDownload('Eblan.txt')}} 
             onMouseEnter={() => setIsHovered(true)} // Устанавливаем состояние при наведении

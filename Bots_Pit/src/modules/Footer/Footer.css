@@ -1,0 +1,23 @@
+.footer__logo {
+    transform: scale(0.5);
+}
+.footer {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.sostav {
+    background-color: var(--accent);
+    color: var(--background);
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+.footer__list {
+    font-family: var(--press);
+}
+.list__elem {
+    font-family: var(--tect);
+}
+.footer__btn {
+    transform: scale(0.8);
+}
