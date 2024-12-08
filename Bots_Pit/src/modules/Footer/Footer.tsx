@@ -12,10 +12,10 @@ function Footer() {
                 <h3 className='footer__list'>Состав Команды:</h3>
                 <ul>
                     <li className='list__elem'>Дудиков Дмитрий</li>
-                    <li>Малышев Семён</li>
-                    <li>Макеев Всеволод</li>
-                    <li>Квинт Александр</li>
-                    <li>Харлов Никита</li>
+                    <li className='list__elem'>Малышев Семён</li>
+                    <li className='list__elem'>Макеев Всеволод</li>
+                    <li className='list__elem'>Квинт Александр</li>
+                    <li className='list__elem'>Харлов Никита</li>
                 </ul>
             </div> 
             <div className='footer__btn'>

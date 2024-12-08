@@ -18,7 +18,7 @@ function Download() {
     return(
         <div className="btncont">
             <button 
-            onClick={() => {triggerDownload('Eblan.txt')}} 
+            onClick={() => {triggerDownload("Eblan.txt")}} 
             onMouseEnter={() => setIsHovered(true)} // Устанавливаем состояние при наведении
             onMouseLeave={() => setIsHovered(false)} // Убираем состояние при уходе
             className={`down_btn highlight-container ${isHovered ? 'highlight' : ''}`}
