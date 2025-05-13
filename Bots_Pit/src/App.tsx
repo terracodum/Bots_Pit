@@ -8,8 +8,13 @@ import Imgset from './modules/Imgset/Imgset.tsx'
 import List from './modules/List/List.tsx'
 import Biglist from './modules/BigList/Biglist.tsx'
 import Footer from './modules/Footer/Footer.tsx'
+import HeroGif from './modules/Gif/HeroGif.tsx'
 import sum from './Text.tsx'
 import suml from './Lists.tsx'
+import walk from "./images/walk.gif";
+import damage from './images/damage.gif'
+import chat from './images/chat.gif'
+import kick from './images/kick.gif'
 function App() {
 
   return (
@@ -44,7 +49,14 @@ function App() {
         <List title={suml[7].title} count={suml[7].count} points={suml[7].points}/>
         <List title={suml[8].title} count={suml[8].count} points={suml[8].points}/>
         <Block title={sum[2].title} text={sum[2].text}/>
+        <div className='hero_gif'>
+          <HeroGif gif={walk} />
+          <HeroGif gif={damage}/>
+          <HeroGif gif={kick} />
+          <HeroGif gif={chat}/>
+        </div>
       </div>
+
       <Footer/>
     </div>
   )

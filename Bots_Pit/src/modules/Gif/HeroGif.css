@@ -1,0 +1,12 @@
+.gif {
+    border: var(--accent) 1rem solid;
+    height: 15rem;
+    border-radius: 10px;
+    
+}
+.hero_gif {
+    
+    padding: 2rem;
+    display:  flex;
+    justify-content: space-around;
+}
