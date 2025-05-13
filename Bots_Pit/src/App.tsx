@@ -50,10 +50,10 @@ function App() {
         <List title={suml[8].title} count={suml[8].count} points={suml[8].points}/>
         <Block title={sum[2].title} text={sum[2].text}/>
         <div className='hero_gif'>
-          <HeroGif gif={walk} />
-          <HeroGif gif={damage}/>
-          <HeroGif gif={kick} />
-          <HeroGif gif={chat}/>
+          <HeroGif gif={walk} text={"Ходьба"}/>
+          <HeroGif gif={damage} text={"Искры"}/>
+          <HeroGif gif={kick} text={"Удар"} />
+          <HeroGif gif={chat} text={"Диалог"}/>
         </div>
       </div>
 
